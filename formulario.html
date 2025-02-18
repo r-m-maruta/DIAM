@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title>Candidatura voluntariado</title>
+    <h1>Candidatura voluntariado</h1>
+</head>
+<body>
+  <form action="./submetida.html">
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="horario">Horario voluntariado:</label><br>
+    <input list="horarios" name="horario" id="horario">
+    <datalist id="horarios">
+      <option value="Manha">
+      <option value="Tarde">
+      <option value="Noite">
+    </datalist><br>
+
+    <br><input type="submit" value="Submeter">
+    <input type="reset" value="Reset">
+
+  </form>
+</body>
+</html>
